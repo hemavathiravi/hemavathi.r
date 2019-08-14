@@ -1,13 +1,13 @@
 #h
-n,k,p=map(str,input().split())
-n=list(n)
-k=list(k)
-p=int(p)
+r,h,v=map(str,input().split())
+r=list(r)
+h=list(h)
+v=int(v)
 count=0
-for i in range(0,len(n)):
+for i in range(0,len(r)):
         if(n[i]!=k[i]):
             count=count+1
-if(count==p):
+if(count==v):
     print("yes")
 else:
     print("no")
